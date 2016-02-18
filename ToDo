@@ -1,0 +1,72 @@
+Pre requisites
+	CN,Switch,SN ILOMs are accessible
+	ZFS CLI Interfaces are available
+	CNs in virtual configuration are accessible as root/welcome1	
+
+Cleanup
+	
+	No partitions
+	ZFS Project
+	ZFS Shares
+	ILOM Rules
+	
+Post Install validation
+	
+Servers
+
+ILOM
+	
+        Firmware versions
+	BIOS settings
+	DNS/NTP-??
+	
+OVS
+	
+        Version
+	DOM 0 - CPU
+	DOM 0 - Memory	
+	Check network interfaces
+	
+
+Nimbula
+
+	Version
+	Nodes	
+
+Default networks - EOIB & IPoIB
+
+	Nimbula
+		Tenants
+		VEthernets ( & VLAN IDs, Switch ports)
+		Vnet
+		IP pool
+		
+	Switches
+		Partition key start
+		Partitions
+
+Storage
+	Firmware -- ??
+	Projects
+	Pools
+	Shares
+
+Control VMs
+	Hostname
+	Up on different nodes
+	Check network interfaces
+
+	PSM
+JCS
+
+DNS & domain
+NTP
+TZ
+
+
+	
+	
+	
+Check if the all the computes that have been configured to be "Virtual" are part of the Nimbula cluster and are active
+Verify this by logging into one of the compute nodes and execute nimbula_get_nodes
+
