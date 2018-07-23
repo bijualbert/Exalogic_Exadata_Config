@@ -5,7 +5,7 @@ from ExalogicConfiguration import *;
 from Exceptions import *;
 from Nimbula import *;
 
-__author__ = "Arvind"
+__author__ = "Biju"
 __date__ = "$Apr 17, 2015 10:57:16 AM$"
 
 class ECUTests(object):
